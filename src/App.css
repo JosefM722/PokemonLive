@@ -15,6 +15,10 @@ body {
   padding: 30px;
 }
 
+#root {
+  width: 100%;
+}
+
 /* Centrerar hela appen i mitten av skärmen */
 .center-wrapper {
   display: flex;

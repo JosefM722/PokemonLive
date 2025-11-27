@@ -9,6 +9,7 @@ export default function App() {
 
   return (
     <div className="center-wrapper">
+      
       {!showApp ? (
         <button onClick={() => setShowApp(true)}>
           Start Pokemon App
@@ -16,6 +17,7 @@ export default function App() {
       ) : (
         <PokemonApplication/>
       )}
+      
     </div>
   );
 }
